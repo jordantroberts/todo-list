@@ -6,4 +6,9 @@ attr_reader :list
     @list = []
   end
 
+  def create
+    puts "What do you need to do today?"
+    @task = gets.chomp!
+  end
+
 end

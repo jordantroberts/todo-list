@@ -9,4 +9,10 @@ describe Todo do
     end
   end
 
+  describe '#create' do
+    it 'creates a new todo list item' do
+      expect(todo.create).to eq "Clean car" 
+    end
+  end
+
 end
