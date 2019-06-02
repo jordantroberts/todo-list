@@ -20,4 +20,20 @@ describe Todo do
     end
   end
 
+  describe '#add' do
+    it 'adds task to todo list' do
+      todo.create
+      todo.add
+      expect(todo.list).to eq ["Clean car"]
+    end
+  end
+
+  describe '#view' do
+    it 'allows user to see list of tasks' do
+      todo.create
+      todo.add
+      expect(todo.view).to eq ["Clean car"]
+    end
+  end
+
 end

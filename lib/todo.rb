@@ -11,4 +11,11 @@ attr_reader :list
     @task = gets.chomp!
   end
 
+  def add
+    @list << @task
+  end
+
+  def view
+    @list
+  end
 end
