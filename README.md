@@ -9,7 +9,7 @@ A small project to practice Ruby again after a few weeks programming in JavaScri
 
 
 <div align="center">
-    <img src="Screenshot.png" width="600px"</img>
+    <img src="Screenshot.png" height="600px"</img>
 </div>
 
 ## User Stories
