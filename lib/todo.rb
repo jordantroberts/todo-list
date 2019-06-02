@@ -22,4 +22,10 @@ attr_reader :list, :task
   def delete(task)
     @list.delete(task)
   end
+
+  def search(task)
+    @task = task
+    result = @list.select { |item| item.include? @task}
+    return result.join(' ')
+  end
 end

@@ -45,4 +45,13 @@ describe Todo do
     end
   end
 
+  describe '#search' do
+    it 'user can search for a task' do
+      todo.create
+      todo.add
+      expect(todo.search("Clean car")).to eq "Clean car"
+    end
+  end
+
+
 end
