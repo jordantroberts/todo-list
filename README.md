@@ -7,7 +7,7 @@ A small project to practice Ruby again after a few weeks programming in JavaScri
 2. Run bundle install
 3. You run this program from the command line as follows:
 
-<center><img src="Screenshot.png"</img></center>
+<center><img src="Screenshot.png" height="200" width="100"</img></center>
 
 ## User Stories
 
