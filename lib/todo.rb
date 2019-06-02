@@ -1,6 +1,6 @@
 class Todo
 
-attr_reader :list
+attr_reader :list, :task
 
   def initialize
     @list = []
@@ -17,5 +17,9 @@ attr_reader :list
 
   def view
     @list
+  end
+
+  def delete(task)
+    @list.delete(task)
   end
 end

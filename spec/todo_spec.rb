@@ -36,4 +36,13 @@ describe Todo do
     end
   end
 
+  describe '#delete' do
+    it 'allows a user to delete a task' do
+      todo.create
+      todo.add
+      todo.delete("Clean car")
+      expect(todo.list).to eq []
+    end
+  end
+
 end
